@@ -16,7 +16,7 @@ export default function Teamcard() {
         {/* <h3 className="text-gray-600">Web Devlopment Organizer</h3 */}
       </div>
       <div className="flex justify-center mt-2">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/kaif9999" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="text-blue-700 text-2xl" />
         </a>
       </div>
@@ -31,7 +31,7 @@ export default function Teamcard() {
         {/* <h3 className="text-gray-600">Web Devlopment Organizer</h3> */}
       </div>
       <div className="flex justify-center mt-2">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/amardeep16" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="text-blue-700 text-2xl" />
         </a>
       </div>
@@ -46,7 +46,7 @@ export default function Teamcard() {
         {/* <h3 className="text-gray-600">Web Devlopment Organizer</h3> */}
       </div>
       <div className="flex justify-center mt-2">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/humaira-hashmi03" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="text-blue-700 text-2xl" />
         </a>
       </div>
@@ -61,7 +61,7 @@ export default function Teamcard() {
         {/* <h3 className="text-gray-600">Web Devlopment Organizer</h3> */}
       </div>
       <div className="flex justify-center mt-2">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/abhishek-verma-jnv" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="text-blue-700 text-2xl" />
         </a>
       </div>
