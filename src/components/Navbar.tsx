@@ -21,7 +21,7 @@ export function Navbar() {
 
   return (
     <div className="flex justify-center w-full bg-transparent top-0 fixed z-50 items-center">
-      <div className="dark:text-gray-100 text-white h-[10%] w-8/12 rounded-full lg:shadow-lg lg:backdrop-blur-md flex lg:justify-between justify-center items-center mt-1 border-2 border-white">
+      <div className="dark:text-gray-100 text-white h-[10%] w-6/12 rounded-full lg:shadow-lg lg:backdrop-blur-md flex lg:justify-between justify-center items-center ml-4 mt-1 border-2 border-white">
         <Link href="/">
           <Logo />
         </Link>
@@ -34,15 +34,15 @@ export function Navbar() {
 
 function Logo() {
   return (
-    <div className="lg:bg-none lg:shadow-none shadow-lg lg:rounded-none rounded-full lg:backdrop-blur-none backdrop-blur-md lg:p-0 p-2 lg:border-0 border-2 border-black">
+    <div className="lg:bg-none lg:shadow-none shadow-lg lg:rounded-none rounded-full lg:backdrop-blur-none backdrop-blur-md lg:p-0 p-4 lg:border-0 border-2 border-black">
       {/* You can uncomment and add your logo here */}
-      {/* <Image
-        src="#"
+      <Image
+        src="/qsd.jpg"
         alt="Logo"
         width={200}
         height={50}
         className="rounded-full"
-      /> */}
+      />
     </div>
   );
 }
@@ -82,7 +82,7 @@ function Menu() {
 function Login({ user }: { user: UserProfile | undefined }) {
   return (
     <div className="ml-20 ">
-      <button className="py-2 px-6 rounded-lg bg-white mx-5 hover:bg-gray-200  flex items-center space-x-4 lg:text-lg sm:text-sm text-xs font-semibold text-black dark:text-gray-400">
+      <button className="py-2 px-10 bg-transparent mx-5  flex items-center space-x-4 lg:text-lg sm:text-sm text-xs font-semibold dark:text-gray-600 text-white border border-emerald-100 hover:bg-gray-200 hover:text-black rounded-2xl">
         {user ? (
           <>
             <span>Welcome, {user.name}</span>

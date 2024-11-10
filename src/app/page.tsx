@@ -1,12 +1,14 @@
 import { SplineBackgroundComponent } from "@/components/spline-background";
 import { Footer } from "@/components/Footer";
+import Stars from "@/components/ui/stars";
 
 export default function Home() {
   return (
     <div>
       
       <SplineBackgroundComponent />
-      <div className="m-auto lg:mt-32 mt-10 sm:w-4/6 flex justify-center flex-col text-[#656C73]">
+      <Stars />
+      <div className="m-auto lg:mt-32 mt-10 sm:w-4/6 flex justify-center flex-col text-[#656C73] dark:text-white">
         <p className=" pl-5 text-xl font-semibold text-black dark:text-gray-500">
           We
         </p>
@@ -23,7 +25,7 @@ export default function Home() {
             Code
           </strong>
         </p>
-        <p className="text-center m-3 text-black text-2xl font-base">
+        <p className="text-center m-3 dark:text-gray-500 text-black text-2xl font-base">
           while having fun.
         </p>
       </div>

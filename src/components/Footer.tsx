@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import Link from "next/link"
 import heart from "@/assets/heart.svg"
 import { FaLinkedin } from "react-icons/fa";
 
@@ -7,8 +7,8 @@ export function Footer(){
 
     return<div className="bg-black rounded-3xl m-8 p-3">
         <div className="flex md:flex-row flex-col  items-center md:items-baseline">
-      
         <div className=" grid md:grid-cols-4 grid-cols-3  m-5 w-5/6 text-left gap-4">
+            <Image alt="logoimage" src="/qsd.jpg" width={200} height={100} className=""></Image>
         <div className="md:col-start-2 col-start-1 text-gray-500 md:m-0">
             <p className="font-bold text-lg text-gray-300">Contribute</p>
             <ul>
@@ -19,10 +19,8 @@ export function Footer(){
         <div className="text-gray-500 m-auto md:m-0">
             <p className="font-bold text-lg text-gray-300">Contents</p>
             <ul>
-                <li>Events</li>
-                <li>Projects</li>
-                <li>Team</li>
-                <li>Contact us</li>
+                <Link href="/team"><li>Team</li></Link>
+                <Link href="/contact"><li>Contact us</li></Link>
             </ul>
             </div>
         <div className="text-gray-500 m-auto md:m-0">
