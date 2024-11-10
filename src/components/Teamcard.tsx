@@ -7,12 +7,12 @@ export default function Teamcard() {
     <div className="grid grid-cols-4 w-4/5 h-auto mx-32 gap-2 justify-center rounded-xl">
     
 
-    <div className="w-full h-auto grid grid-col-3 justify-center border-2 border-gray-200 rounded-xl m-2 bg-blue-400 p-2 bg-opacity-20 backdrop-blur-lg drop-shadow-xl items-center">
+    <div className="w-full h-auto grid grid-col-3 justify-center border-2 border-gray-200 rounded-xl m-2 bg-blue-500 p-2 bg-opacity-20 backdrop-blur-lg drop-shadow-xl items-center">
       <div className="flex justify-center rounded-lg">
         <Image className="rounded-md" src="/kaif.jpg" width={200} height={200} alt="kaif" />
       </div> 
       <div className="grid grid-rows-2 font-bold text-center m-4">
-        <h2 className="font-bold text-center">Mohd Kaif</h2>
+        <h2 className="font-bold text-center text-white">Mohd Kaif</h2>
         {/* <h3 className="text-gray-600">Web Devlopment Organizer</h3 */}
       </div>
       <div className="flex justify-center mt-2">
@@ -22,12 +22,12 @@ export default function Teamcard() {
       </div>
     </div>
 
-    <div className="w-full h-auto grid grid-col-3 justify-center border-2 border-gray-200 rounded-xl m-2 bg-red-400 p-2 bg-opacity-20 backdrop-blur-lg drop-shadow-xl items-center">
+    <div className="w-full h-auto grid grid-col-3 justify-center border-2 border-gray-200 rounded-xl m-2 bg-red-500 p-2 bg-opacity-20 backdrop-blur-lg drop-shadow-xl items-center">
       <div className="flex justify-center rounded-lg">
-        <Image className="rounded-md" src="/am.jpg" width={200} height={200} alt="amrdeep" />
+        <Image className="rounded-md" src="/am.jpeg" width={200} height={200} alt="amrdeep" />
       </div> 
       <div className="grid grid-rows-2 font-bold text-center m-4">
-        <h2 className="font-bold text-center">Amardeep Rao</h2>
+        <h2 className="font-bold text-center text-white">Amardeep Rao</h2>
         {/* <h3 className="text-gray-600">Web Devlopment Organizer</h3> */}
       </div>
       <div className="flex justify-center mt-2">
@@ -37,12 +37,12 @@ export default function Teamcard() {
       </div>
     </div>
 
-    <div className="w-full h-auto grid grid-col-3 justify-center border-2 border-gray-200 rounded-xl m-2 bg-green-400 p-2 bg-opacity-20 backdrop-blur-lg drop-shadow-xl items-center">
+    <div className="w-full h-auto grid grid-col-3 justify-center border-2 border-gray-200 rounded-xl m-2 bg-green-500 p-2 bg-opacity-20 backdrop-blur-lg drop-shadow-xl items-center">
       <div className="flex justify-center rounded-lg">
-        <Image className="rounded-md" src="/h.jpg" width={200} height={200} alt="abhishek" />
+        <Image className="rounded-md" src="/h.jpeg" width={200} height={200} alt="abhishek" />
       </div> 
       <div className="grid grid-rows-2 font-bold text-center m-4">
-        <h2 className="font-bold text-center">Humaira Hashmi</h2>
+        <h2 className="font-bold text-center text-white">Humaira Hashmi</h2>
         {/* <h3 className="text-gray-600">Web Devlopment Organizer</h3> */}
       </div>
       <div className="flex justify-center mt-2">
@@ -52,12 +52,12 @@ export default function Teamcard() {
       </div>
     </div>
 
-    <div className="w-full h-auto grid grid-col-3 justify-center border-2 border-gray-200 rounded-xl m-2 bg-yellow-400 p-2 bg-opacity-20 backdrop-blur-lg drop-shadow-xl items-center">
+    <div className="w-full h-auto grid grid-col-3 justify-center border-2 border-gray-200 rounded-xl m-2 bg-yellow-500 p-2 bg-opacity-20 backdrop-blur-lg drop-shadow-xl items-center">
       <div className="flex justify-center rounded-lg">
-        <Image className="rounded-md" src="/ab.jpg" width={200} height={200} alt="kaif" />
+        <Image className="rounded-md" src="/ab.jpeg" width={200} height={200} alt="kaif" />
       </div> 
       <div className="grid grid-rows-2 font-bold text-center m-4">
-        <h2 className="font-bold text-center">Abhishek</h2>
+        <h2 className="font-bold text-center text-white">Abhishek</h2>
         {/* <h3 className="text-gray-600">Web Devlopment Organizer</h3> */}
       </div>
       <div className="flex justify-center mt-2">

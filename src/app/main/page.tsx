@@ -5,6 +5,7 @@ import { useState } from "react";
 import axios from "axios";
 import { Navbar } from "@/components/Navbar";
 import Stars from "@/components/ui/stars";
+const videoUrl = ""; // Initialize videoUrl with an empty string or a valid URL
 const response = await axios.post('/api/summarize', { videoUrl });
 
 

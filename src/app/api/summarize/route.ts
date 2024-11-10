@@ -11,3 +11,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'Error processing the video.' }, { status: 500 });
   }
 }
+function generateSummaryFromVideo(videoUrl: any) {
+    throw new Error('Function not implemented.');
+}
+
